@@ -10,12 +10,13 @@ nav_order: 2
 - 5 distances (50 m–1 km)
 - 1 illumination angle
 
-## Baselines & Observations
-- **SfM**: fast but discontinuous; holes in geometry.
-- **SPC**: excellent quality but requires lots of data and time.
-- **Vanilla NeRF**: good quality/low data, but diverges in shadows → incomplete shape.
+![Example Images](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/combined_datasets_no_colorbars.png)
 
 ## MW-NeRF Approach
-- Multi-wavelength input channels (e.g., visible + other bands)
-- Training objective emphasizes structural consistency in low-light regions
-- Stable learning under varying illumination
+MW-NeRF adds a new network to the traditional NeRF architecture dedicated to learning a color representation for a scene at an additional wavelength. This gives us two learned color representations, which both share the same underlying learned shape model for whatever is present in a scene. In the MW-NeRF paper we train on Optical and Infrared data, where the infrared is guaranteed to possess the shape information required to complete the shape model, since the visible data cannot on its own.
+
+![MW-NeRF Pipeline](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/mwnerfsat.png)
+
+Training on the same optical data alongside IR data gives us accurate learned visual representations, with complete shape models.
+
+![MW-NeRF Side-by-side Results](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_ir_triplets.png)

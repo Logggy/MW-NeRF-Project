@@ -21,7 +21,7 @@ NeRFs, on their own, struggle to learn scenes with very complex lighting. In spa
 
 While failing to learn a full underlying shape model.
 
-[📄 NeRF Outputs vs Ground Truth (PDF)](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_all_50.0m_combined_triplets.pdf)
+![NeRF Outputs Alongside GT Images](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_triplets.png)
 
 There's no reason why we should be able to get these shape models by default: the training dataset lacks the information to teach the NeRF about what exists in these shadows. MW-NeRF addresses this by incorporating data from multiple wavelengths, providing the NeRF with enhanced information where a single wavelength may be insufficient.
 

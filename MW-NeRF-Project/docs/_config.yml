@@ -1,6 +1,0 @@
-
-title: MW-NeRF
-description: Multi-Wavelength NeRF Models for Spacecraft Modeling in Shadowed Environments
-theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-seo-tag

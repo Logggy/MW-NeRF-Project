@@ -8,8 +8,6 @@ nav_order: 3
 
 All training data was arranged in a spherical grid surrounding the object being depicted in each scene. We have chosen to display the metrics calculated between each of these images and their NeRF renderings on two polar plots for the northern and southern hemispheres of this grid. The layout of the training images are shown here: 
 
-![MW-NeRF Side-by-side Results](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/TrainingSet.png)
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/TrainingSet.png" alt="MW-NeRF Training Positions" width="600">
 </p>

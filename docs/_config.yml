@@ -5,4 +5,4 @@ theme: minima
 plugins:
   - jekyll-seo-tag
 
-baseurl: "/MW-NeRF-Project" 
+baseurl: "https://github.com/Logggy/MW-NeRF-Project/tree/main" 

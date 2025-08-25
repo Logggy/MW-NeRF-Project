@@ -6,7 +6,7 @@ nav_order: 1
 
 # MW-NeRF
 
-![Hero](https://github.com/Logggy/MW-NeRF-Project/assets/image17.png)
+![Hero](https://github.com/Logggy/MW-NeRF-Project/tree/main/assets/image17.png)
 
 MW-NeRF extends Neural Radiance Fields (NeRFs) to handle **complex lighting and shadows** in **space-based imagery** for spacecraft modeling and reconstruction.
 

@@ -4,3 +4,5 @@ description: Multi-Wavelength NeRF Models for Spacecraft Modeling in Shadowed En
 theme: minima
 plugins:
   - jekyll-seo-tag
+
+baseurl: "/MW-NeRF-Project" 

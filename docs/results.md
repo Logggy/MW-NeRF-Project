@@ -16,15 +16,23 @@ For the final metric polar plots, we interpolate between each of these points to
 
 ### Vis-only Training
 
-![MW-NeRF Side-by-side Results](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_percent.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_percent.png" alt="MW-NeRF Side-by-side Results" width="600">
+</p>
 
-![MW-NeRF Side-by-side Results](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_ssim.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_ssim.png" alt="MW-NeRF Side-by-side Results" width="600">
+</p>
 
 ### MW-NeRF Model
 
-![MW-NeRF Side-by-side Results](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_ir_percent.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_ir_percent.png" alt="MW-NeRF Side-by-side Results" width="600">
+</p>
 
-![MW-NeRF Side-by-side Results](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_ir_ssim.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/hubble_ir_ssim.png" alt="MW-NeRF Side-by-side Results" width="600">
+</p>
 
 ### Results discussion
 

@@ -3,7 +3,8 @@ layout: home
 title: Motivation
 nav_order: 1
 ---
-# What is MW-NeRF?
+
+## What is MW-NeRF?
 
 MW-NeRF extends Neural Radiance Fields (NeRFs) to handle **complex lighting and shadows** in **space-based imagery** for spacecraft modeling and reconstruction.
 
@@ -11,7 +12,7 @@ MW-NeRF extends Neural Radiance Fields (NeRFs) to handle **complex lighting and 
 - **Problem**: Vanilla NeRFs struggle in **shadows**, leading to incomplete reconstructions.
 - **Our solution**: **Multi-Wavelength training** → robust features, complete geometry, stable learning.
 
-# Typical NeRF Training Results
+## Typical NeRF Training Results
 
 NeRFs, on their own, struggle to learn scenes with very complex lighting. In space-based environments, this is extremely clear, as we often get single direct light sources that cast sharp and complete shadows. NeRFs can still train on the visible parts, but this does not completely save us in every aspect of training, since NeRFs learn both visible representations of a scene and the underlying density/shape models occupying them. This can give us successful visual representations!
 

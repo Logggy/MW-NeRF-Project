@@ -10,6 +10,10 @@ All training data was arranged in a spherical grid surrounding the object being 
 
 ![MW-NeRF Side-by-side Results](https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/TrainingSet.png)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/TrainingSet.png" alt="MW-NeRF Training Positions" width="600">
+</p>
+
 For the final metric polar plots, we interpolate between each of these points to get smooth heatmaps depicting the performance of the model at each point.
 
 ## Total Intensity Percent Error and Structural Similarity Index Measure Results

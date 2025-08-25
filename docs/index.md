@@ -16,9 +16,13 @@ MW-NeRF extends Neural Radiance Fields (NeRFs) to handle **complex lighting and 
 
 NeRFs, on their own, struggle to learn scenes with very complex lighting. In space-based environments, this is extremely clear, as we often get single direct light sources that cast sharp and complete shadows. NeRFs can still train on the visible parts, but this does not completely save us in every aspect of training, since NeRFs learn both visible representations of a scene and the underlying density/shape models occupying them. This can give us successful visual representations!
 
-<video width="900" controls autoplay loop muted>
-  <source src="https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/nerfanim.mp4" type="video/mp4">
-</video>
+<p align="center">
+  <video width="1000" controls autoplay loop muted>
+    <source src="https://raw.githubusercontent.com/Logggy/MW-NeRF-Project/main/assets/nerfanim.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
 
 While failing to learn a full underlying shape model.
 
